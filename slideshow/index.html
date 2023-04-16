@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slideshow</title>
+    <link href="index.css" rel="stylesheet">
+<body>
+    <div class="slidercontainer">
+        <div class="showSlide fade">
+            <img src="image.jpg">
+            <div class="content">Avengers</div>
+        </div>
+        <div class="showSlide fade">
+            <img src="images1.jpg">
+            <div class="content">Ironman</div>
+
+        </div>
+        <div class="showSlide fade">
+            <img src="images3.jpg">
+            <div class="content">Thor</div>
+        </div>
+        <div class="showSlide fade">
+            <img src="images4.jpg">
+            <div class="content">Spiderman</div>
+        </div>
+        <div class="showSlide fade">
+            <img src="images5.jpg">
+            <div class="content">Hulk</div>
+        </div>
+
+        <a class="left" onclick="nextSlide(-1)">◄</a>
+        <a class="right" onclick="nextSlide(1)">►</a>
+
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
